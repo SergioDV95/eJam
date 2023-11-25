@@ -680,10 +680,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(237 243 253 / var(--tw-bg-opacity));
 }
-.bg-\[\#FAFAFA\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
-}
 .p-\[24px\] {
   padding: 24px;
 }
@@ -891,8 +887,16 @@ li {
     width: 48px;
   }
 
+  .max-\[1499px\]\:w-full {
+    width: 100%;
+  }
+
   .max-\[1499px\]\:flex-col {
     flex-direction: column;
+  }
+
+  .max-\[1499px\]\:justify-center {
+    justify-content: center;
   }
 
   .max-\[1499px\]\:px-\[20px\] {
