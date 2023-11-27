@@ -720,6 +720,10 @@ video {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+.px-\[26\.25px\] {
+  padding-left: 26.25px;
+  padding-right: 26.25px;
+}
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -1054,6 +1058,14 @@ li {
 
   .min-\[1500px\]\:justify-center {
     justify-content: center;
+  }
+
+  .min-\[1500px\]\:justify-between {
+    justify-content: space-between;
+  }
+
+  .min-\[1500px\]\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .min-\[1500px\]\:gap-\[10px\] {

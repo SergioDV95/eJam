@@ -21,8 +21,8 @@ function changeHeader() {
       }
       for (let i in li) {
          let liElement = document.createElement("li");
-         liElement.innerHTML = li[i];
          ul.appendChild(liElement);
+         liElement.outerHTML = li[i];
       }
       arrow.forEach((element) => {
          element.removeEventListener("click", handleClick);
