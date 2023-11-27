@@ -6,9 +6,9 @@ const ul = document.getElementById("meta");
 let currentIndex = 0;
 let li = [
    '<li class="before:content-[url(./SVG/checkmark.svg)] before:w-[22px] before:h-[22px] gap-[8px]">30-DAY SATISFACTION GUARANTEE</li>',
-   '<li class="before:content-[url(./SVG/truck.svg)] before:w-[22px] before:h-[22px] gap-[8px]">Free delivery on orders over $40.00</li>',
+   '<li class="before:content-[url(./SVG/truck.svg)] before:w-[22px] before:h-[22px] gap-[8px]">FREE DELIVERY ON ORDERS OVER $40.00</li>',
    '<li class="before:content-[url(./SVG/corazon.svg)] before:w-[22px] before:h-[22px] before:flex before:items-center gap-[8px]">50.000+ HAPPY CUSTOMERS</li>',
-   '<li class="before:content-[url(./SVG/arrow.svg)] before:w-[22px] before:h-[22px] gap-[8px]">100% Money Back Guarantee</li>'
+   '<li class="before:content-[url(./SVG/arrow.svg)] before:w-[22px] before:h-[22px] gap-[8px]">100% MONEY BACK GUARANTEE</li>'
 ]
 
 function changeHeader() {
