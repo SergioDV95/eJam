@@ -15,9 +15,8 @@ function changeHeader() {
    const width = document.documentElement.clientWidth;
    if (width >= 1500) {
       if (ul.hasChildNodes) {
-         let childs = ul.children;
-         for (let child of childs) {
-            child.remove();
+         while (ul.firstChild) {
+            ul.removeChild(ul.firstChild);
          }
       }
       for (let i in li) {
