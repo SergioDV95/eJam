@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 body {
-   @apply font-['Manrope'] box-border font-[400] text-[12px] min-[1500px]:text-[16px];
+   @apply font-manrope box-border font-[400] text-[12px] min-[1500px]:text-[16px];
 }
 li {
    @apply inline-flex items-center

@@ -512,17 +512,11 @@ video {
 .box-border {
   box-sizing: border-box;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
 }
 .inline-flex {
   display: inline-flex;
-}
-.hidden {
-  display: none;
 }
 .h-\[102px\] {
   height: 102px;
@@ -598,9 +592,6 @@ video {
 }
 .rotate-180 {
   --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .resize {
@@ -700,6 +691,10 @@ video {
   padding-left: 20px;
   padding-right: 20px;
 }
+.px-\[26\.25px\] {
+  padding-left: 26.25px;
+  padding-right: 26.25px;
+}
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -719,13 +714,6 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
-}
-.px-\[26\.25px\] {
-  padding-left: 26.25px;
-  padding-right: 26.25px;
-}
-.pl-2 {
-  padding-left: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -843,7 +831,7 @@ video {
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 body {
   box-sizing: border-box;
-  font-family: 'Manrope';
+  font-family: Manrope, sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
@@ -920,11 +908,6 @@ li {
     padding-right: 20px;
   }
 
-  .max-\[1499px\]\:px-\[26\.25px\] {
-    padding-left: 26.25px;
-    padding-right: 26.25px;
-  }
-
   .max-\[1499px\]\:py-\[9px\] {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -938,20 +921,6 @@ li {
     --tw-shadow: 0 24px 24px 0 #0F1D0B0D;
     --tw-shadow-colored: 0 24px 24px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-}
-@media (min-width: 1280px) {
-
-  .xl\:block {
-    display: block;
-  }
-
-  .xl\:justify-center {
-    justify-content: center;
-  }
-
-  .xl\:gap-\[140px\] {
-    gap: 140px;
   }
 }
 @media (min-width: 1500px) {
@@ -1064,16 +1033,8 @@ li {
     justify-content: space-between;
   }
 
-  .min-\[1500px\]\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
   .min-\[1500px\]\:gap-\[10px\] {
     gap: 10px;
-  }
-
-  .min-\[1500px\]\:gap-\[140px\] {
-    gap: 140px;
   }
 
   .min-\[1500px\]\:gap-\[16px\] {
